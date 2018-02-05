@@ -51,9 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PythonInterpreter\Examples\InGamePythonInterpreter.cs" />
-     <Compile Include="Assets\PythonInterpreter\Scripts\PythonEnvironment.cs" />
-     <None Include="Assets\PythonInterpreter\README.txt" />
+     <Compile Include="Assets\Scripts\Global scripts\ChangeMouseIcon.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -117,26 +115,11 @@
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="IronPython">
- <HintPath>C:/dev/GitHub/salm420/dndgame/Assets/PythonInterpreter/Plugins/IronPython.dll</HintPath>
- </Reference>
- <Reference Include="IronPython.Modules">
- <HintPath>C:/dev/GitHub/salm420/dndgame/Assets/PythonInterpreter/Plugins/IronPython.Modules.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Dynamic">
- <HintPath>C:/dev/GitHub/salm420/dndgame/Assets/PythonInterpreter/Plugins/Microsoft.Dynamic.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Scripting.Core">
- <HintPath>C:/dev/GitHub/salm420/dndgame/Assets/PythonInterpreter/Plugins/Microsoft.Scripting.Core.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Scripting">
- <HintPath>C:/dev/GitHub/salm420/dndgame/Assets/PythonInterpreter/Plugins/Microsoft.Scripting.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Scripting.Metadata">
- <HintPath>C:/dev/GitHub/salm420/dndgame/Assets/PythonInterpreter/Plugins/Microsoft.Scripting.Metadata.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/bower/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
