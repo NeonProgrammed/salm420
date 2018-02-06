@@ -7,7 +7,7 @@ Not yet ready for publishing - still in early stages of development.
 
 20 sided die - RNG
 
-Title Screen(BAG of Trash studios welcomes you to… [title TBD])
+Title Screen(BAG of Trash studios welcomes you to… Lairs and Lizards)
 
 Chat\\big succ
 
