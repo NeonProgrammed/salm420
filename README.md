@@ -26,7 +26,7 @@ Predetermined functions for the weak ass GM’s
 
 Message each player individually as GM
 
-Vanilla races(human, vampire, lycanthrope, goblin)
+Vanilla races(human, vampire, lycanthrope, Dokkalfar, Ljosalfar)
 
 Gm has ability to kill current event in certain cases
 
