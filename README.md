@@ -26,7 +26,7 @@ Predetermined functions for the weak ass GM’s
 
 Message each player individually as GM
 
-Vanilla races(human, elf, orc, halfling, gnome)
+Vanilla races(human, vampire, lycanthrope, goblin)
 
 Gm has ability to kill current event in certain cases
 
@@ -37,3 +37,6 @@ GM able to edit gear/items tailored for each campaign
 Save method
 
 Visuals done by my boy Trevor
+
+Vanilla version should be based on victorian/steam punk era rather than medieval to avoid extreme similarity to DnD
+        i.e. witch doctors, flintlock pistols, big ass hats
