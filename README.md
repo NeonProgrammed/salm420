@@ -28,6 +28,8 @@ Message each player individually as GM
 
 Vanilla races(human, vampire, lycanthrope, Dokkalfar, Ljosalfar)
 
+Vanilla Classes(Hunter, marksman, rogue, witch doctor, butcher)
+
 Gm has ability to kill current event in certain cases
 
 GM able to edit enemy stats before game start
