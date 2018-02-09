@@ -1,0 +1,39 @@
+This file will be the format for the .lnl files we use to
+allow people to make their own campain and share.
+
+#Header
+
+
+
+#Classes/Races
+
+
+
+#Map
+
+
+#Story
+
+
+#Events (May combind with story)
+
+
+#NPC (May combind with enemies)
+
+
+#Enemies
+
+
+
+#Log
+
+
+#Items
+
+
+
+#MetaData
+
+
+
+#EOF
