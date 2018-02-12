@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
-//Learning file io that unity uses. Will refactor for our uses
+
+/* Code format: 
+    FileCreation .lnl
+    FileCreation .suc
+    File Read
+
+    If you are editing this file than please heavily comment.
+    This is a team effort and if we are always going to each other for
+    explanation of code and code structure than we wont get anywhere. thanks :) -GB
+     */
 
 public class FileIO : MonoBehaviour {
-
-    string readpath;
-    string writepath;
-
-    public List<string> stringList = new List<string>();
-    public List<string> writeList = new List<string>();
+    
 
 	// Use this for initialization
 	void Start () {
-        readpath = Application.dataPath + "/ReadFile.txt";
-        writepath = Application.dataPath + "/WriteFile.txt";
 
-        ReadFile(readpath);
-        WriteFile(writepath);
-        AppendFile(writepath);
 	}
 	
 	// Update is called once per frame
@@ -28,61 +28,23 @@ public class FileIO : MonoBehaviour {
 		
 	}
 
-    //Read the file
-    void ReadFile(string filePath)
+    //Creates lnl files from data in a file. Will refine to work during runtime
+    public static void Createlnl()
     {
-        StreamReader sReader = new StreamReader(filePath);
 
-        //While we are still reading from the file
-        while (!sReader.EndOfStream)
-        {
-            string line = sReader.ReadLine();
-            //string line = sReader.ReadLine();
-            stringList.Add(line);
-        }
-
-        sReader.Close(); //Closes the file
     }
 
-    //Write to a file
-    void WriteFile(string filePath)
+    //Creates suc file during runtime to save campain/game data ... will refine
+    public static void Createsuc()
     {
-        StreamWriter sWriter;
 
-        if (!File.Exists(filePath))
-        {
-            sWriter = File.CreateText(Application.dataPath + "WriteFile.txt");
-        } else
-        {
-            sWriter = new StreamWriter(filePath);
-        }
-
-        for (int i = 0; i < writeList.Count; i++)
-        {
-            sWriter.WriteLine(writeList[i]);
-        }
-
-        sWriter.Close();
     }
 
-    void AppendFile(string filePath)
+    //Detects the file type and deserializes it to derive a string value.
+    //Will read data into memory for future use.
+    public static void LoadFile()
     {
-        StreamWriter sWriter;
 
-        if (!File.Exists(filePath))
-        {
-            sWriter = File.CreateText(Application.dataPath + "WriteFile.txt");
-        } else
-        {
-            sWriter = new StreamWriter(filePath, append: true);
-        }
-
-        for (int i = 0; i < writeList.Count; i++)
-        {
-            sWriter.WriteLine(writeList[i]);
-        }
-
-        sWriter.Close();
     }
 
 }
