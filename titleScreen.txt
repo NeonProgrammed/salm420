@@ -1,4 +1,8 @@
-﻿Welcome --> Host / Join / Create / Options / Exit
+﻿
+Big ol book with BAG of Trash studios on front
+Opens up to title menu
+
+Welcome --> Host / Join / Create / Options / Exit
 
 Host:
 	- Import File
