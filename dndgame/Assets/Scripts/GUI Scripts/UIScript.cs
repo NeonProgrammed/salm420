@@ -41,4 +41,9 @@ public class UIScript : MonoBehaviour {
         optionsUI.enabled = false;
     }
 
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
 }
