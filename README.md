@@ -42,3 +42,5 @@ Visuals done by my boy Trevor
 
 Vanilla version should be based on victorian/steam punk era rather than medieval to avoid extreme similarity to DnD
         i.e. witch doctors, flintlock pistols, big ass hats
+
+New filetypes for vidja game, game file(.lnl), save file(.suc), character creation file(.chr)
