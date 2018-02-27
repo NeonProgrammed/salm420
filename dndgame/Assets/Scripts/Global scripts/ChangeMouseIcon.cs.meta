@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 5fcb476295cd2a0408b25acb38cbfa8c
-timeCreated: 1517724324
+timeCreated: 1519758675
 licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dragon_Icon: {fileID: 2800000, guid: 2bad18b10d0172143bd1cc9e36f419f3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
