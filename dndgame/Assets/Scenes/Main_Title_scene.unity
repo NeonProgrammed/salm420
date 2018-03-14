@@ -390,7 +390,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.1845794
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -550,6 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549794986}
   - component: {fileID: 549794985}
+  - component: {fileID: 549794987}
   m_Layer: 0
   m_Name: ButtonControl
   m_TagString: Untagged
@@ -584,6 +585,17 @@ Transform:
   m_Father: {fileID: 1681141064}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549794987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 549794984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b4fd89edaab404ea0834840951c440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &696533666
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +861,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 748785756}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6209326, y: -0.35861164, z: 4.7246094}
+  m_LocalPosition: {x: 0.6209326, y: -0.2, z: 4.7246094}
   m_LocalScale: {x: 1.0919999, y: 0.97633415, z: 1.0239145}
   m_Children: []
   m_Father: {fileID: 163320729}
@@ -1595,8 +1607,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 549794987}
+        m_MethodName: CreateCampaign
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
