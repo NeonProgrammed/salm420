@@ -1,21 +1,16 @@
 fileFormatVersion: 2
-guid: 72d56ff17d378cb4f8e189b4569bae7d
-timeCreated: 1519011126
+guid: 952e7ce0e2f46434db0787c81805c7cf
+timeCreated: 1531864787
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: unnamed
-    2100002: TextureMaterial
-    2100004: TextureMaterial__Texture
+    2100000: TextureMaterial
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cylinder
-    4300002: Circle
-    7400000: Default Take
-    9500000: //RootNode
+    4300000: Circle
   externalObjects: {}
   materials:
     importMaterials: 1
