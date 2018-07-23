@@ -15,8 +15,8 @@ public class bar : MonoBehaviour {
 
 	public float Value {
 		set {
-            width = Map(value, 0, MaxValue, 0, 1);
-		}
+        // width = Map(value, 0, MaxValue, 0, 1);
+        }
 
 	}
 
@@ -27,9 +27,9 @@ public class bar : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		HandleBar();
+		// HandleBar();
 	}
-
+    /**
 	private void HandleBar() {
 		if (width != content.width) {
 			content.width = width;
@@ -39,5 +39,5 @@ public class bar : MonoBehaviour {
 	private float Map(float value, float inMin, float inMax, float outMin, float outMax) {
 		return value(value - inMin) * (outMax) / (inMax - inMin) + outMin;
 		//(80 health - 0) * (1 - 0) / (100 - 0) + 0;
-	}
+	} **/
 }
