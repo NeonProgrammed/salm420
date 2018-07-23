@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-19T22:49:42.627-04:00
-  initializedAtString: 2018-07-19T22:31:42.871-04:00
+  lastUpdatedAtString: 2018-07-22T21:46:26.163-04:00
+  initializedAtString: 2018-07-22T21:41:53.495-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/NeonProgrammed/salm420.git
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/NeonProgrammed/salm420.git
-  currentHead: 483a487
+  currentHead: b933525

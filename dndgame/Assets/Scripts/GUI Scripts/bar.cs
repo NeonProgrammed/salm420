@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class bar : MonoBehaviour {
 
@@ -14,8 +15,8 @@ public class bar : MonoBehaviour {
 
 	public float Value {
 		set {
-			width = Map(value, 0, MaxValue, 0, 1)
-		};
+            width = Map(value, 0, MaxValue, 0, 1);
+		}
 
 	}
 
@@ -35,7 +36,7 @@ public class bar : MonoBehaviour {
 		}
 	}
 
-	private float Map(float value, float inMin, inMax, float outMin, float outMax) {
+	private float Map(float value, float inMin, float inMax, float outMin, float outMax) {
 		return value(value - inMin) * (outMax) / (inMax - inMin) + outMin;
 		//(80 health - 0) * (1 - 0) / (100 - 0) + 0;
 	}
