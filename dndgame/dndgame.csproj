@@ -336,6 +336,7 @@
     <Compile Include="Assets\Scripts\GUI Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\GUI Scripts\UIScript.cs" />
     <Compile Include="Assets\Scripts\IO scripts\FileIO.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\Test_FileReader.cs" />
     <Compile Include="Assets\Scripts\IO scripts\TestScript.cs" />
   </ItemGroup>
   <ItemGroup>
