@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-22T22:36:39.780-04:00
-  initializedAtString: 2018-07-22T21:41:53.516-04:00
+  lastUpdatedAtString: 2018-07-25T18:45:39.639-04:00
+  initializedAtString: 2018-07-25T18:44:49.707-04:00
   entries:
   - path: dndgame\.vs\dndgame\v15\.suo
     fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\.suo
@@ -27,27 +27,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: dndgame\Assets\Scripts\GUI Scripts\bar.cs
-    fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\GUI Scripts\bar.cs
-    projectPath: Assets\Scripts\GUI Scripts\bar.cs
+  - path: dndgame\Assets\Scripts\IO scripts\FileIO.cs
+    fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\FileIO.cs
+    projectPath: Assets\Scripts\IO scripts\FileIO.cs
     originalPath: 
     status: 3
+    staged: 0
+  - path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
+    fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
+    projectPath: Assets\Scripts\IO scripts\Test_FileReader.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
+    fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
+    projectPath: Assets\Scripts\IO scripts\Test_FileReader.cs.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: dndgame\dndgame.csproj
     fullPath: C:\dev\GitHub\salm420\dndgame\dndgame.csproj
     projectPath: dndgame.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: dndgame\dndgame.sln
+    fullPath: C:\dev\GitHub\salm420\dndgame\dndgame.sln
+    projectPath: dndgame.sln
     originalPath: 
     status: 3
     staged: 0
@@ -63,6 +69,12 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: dndgame\Library\EditorInstance.json
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
   - path: dndgame\Library\gfu\cache\branches.yaml
     fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -72,12 +84,6 @@ MonoBehaviour:
   - path: dndgame\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: dndgame\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -93,65 +99,77 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: dndgame\Library\gfu\cache\gituser.yaml
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: dndgame\Library\gfu\cache\repoinfo.yaml
     fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: dndgame\Library\metadata\00\0000000000000000b000000000000000
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\00\0000000000000000b000000000000000
-    projectPath: Library\metadata\00\0000000000000000b000000000000000
+  - path: dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
+    projectPath: Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: dndgame\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
-    projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+  - path: dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
+    projectPath: Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: dndgame\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+  - path: dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
+    projectPath: Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: dndgame\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+  - path: dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
+    projectPath: Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: dndgame\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+  - path: dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
+    projectPath: Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: dndgame\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: dndgame\Library\metadata\dd\dd3a6d9365d16c84ea0c158b34abd454
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\dd\dd3a6d9365d16c84ea0c158b34abd454
-    projectPath: Library\metadata\dd\dd3a6d9365d16c84ea0c158b34abd454
+  - path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
+    projectPath: Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Library\metadata\dd\dd3a6d9365d16c84ea0c158b34abd454.info
-    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\dd\dd3a6d9365d16c84ea0c158b34abd454.info
-    projectPath: Library\metadata\dd\dd3a6d9365d16c84ea0c158b34abd454.info
+  - path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
+    projectPath: Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
     originalPath: 
     status: 1
+    staged: 0
+  - path: dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
+    projectPath: Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
+    projectPath: Library\metadata\76\764cfda069b085e42b9de26f49d16b54
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
+    projectPath: Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
+    projectPath: Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
+    originalPath: 
+    status: 5
     staged: 0
   - path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\dev\GitHub\salm420\dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -171,9 +189,9 @@ MonoBehaviour:
     originalPath: 
     status: 5
     staged: 0
-  - path: dndgame\ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\dev\GitHub\salm420\dndgame\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
+  - path: dndgame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\dev\GitHub\salm420\dndgame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
@@ -183,51 +201,45 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-23608b97ce7812844a41d1f73e4268da
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-23608b97ce7812844a41d1f73e4268da
-    projectPath: Temp\UnityTempFile-23608b97ce7812844a41d1f73e4268da
+  - path: dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
+    projectPath: Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-281699dfc5e096a4aa5e1293b12d0cd5
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-281699dfc5e096a4aa5e1293b12d0cd5
-    projectPath: Temp\UnityTempFile-281699dfc5e096a4aa5e1293b12d0cd5
+  - path: dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
+    projectPath: Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-2bb4b1b105d726f4a8de8f2bc22d0ba4
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-2bb4b1b105d726f4a8de8f2bc22d0ba4
-    projectPath: Temp\UnityTempFile-2bb4b1b105d726f4a8de8f2bc22d0ba4
+  - path: dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
+    projectPath: Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-492f030b632fa944b9858d55bfe340c8
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-492f030b632fa944b9858d55bfe340c8
-    projectPath: Temp\UnityTempFile-492f030b632fa944b9858d55bfe340c8
+  - path: dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
+    projectPath: Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-ae6bf3628e05d994d8baf7bc58aec726
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-ae6bf3628e05d994d8baf7bc58aec726
-    projectPath: Temp\UnityTempFile-ae6bf3628e05d994d8baf7bc58aec726
+  - path: dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
+    projectPath: Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-c6ac469087862004fb5ef8370e4c6464
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-c6ac469087862004fb5ef8370e4c6464
-    projectPath: Temp\UnityTempFile-c6ac469087862004fb5ef8370e4c6464
+  - path: dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
+    projectPath: Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
     originalPath: 
     status: 1
     staged: 0
-  - path: dndgame\Temp\UnityTempFile-df1858a6d6b7955499e1728ac01c04c2
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-df1858a6d6b7955499e1728ac01c04c2
-    projectPath: Temp\UnityTempFile-df1858a6d6b7955499e1728ac01c04c2
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: dndgame\Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+  - path: dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
+    fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
+    projectPath: Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
     originalPath: 
     status: 1
     staged: 0
