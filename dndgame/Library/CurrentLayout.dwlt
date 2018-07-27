@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -91,7 +91,7 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 508, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 152
@@ -113,15 +113,15 @@ MonoBehaviour:
     y: 0
     width: 426
     height: 947
-  m_MinSize: {x: 102, y: 121}
+  m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,8 +140,8 @@ MonoBehaviour:
     y: 0
     width: 353
     height: 618
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -342,9 +342,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -577,11 +577,11 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: '[Garrett-Branch]'
+    currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
@@ -595,22 +595,9 @@ MonoBehaviour:
         - dndgame\.vs\dndgame\v15
         - dndgame\.vs\dndgame\v15\Server
         - dndgame\.vs\dndgame\v15\Server\sqlite3
-        - dndgame\Assets
-        - dndgame\Assets\Scripts
-        - dndgame\Assets\Scripts\IO scripts
         - dndgame\Library
         - dndgame\Library\gfu
         - dndgame\Library\gfu\cache
-        - dndgame\Library\metadata
-        - dndgame\Library\metadata\0d
-        - dndgame\Library\metadata\1f
-        - dndgame\Library\metadata\29
-        - dndgame\Library\metadata\47
-        - dndgame\Library\metadata\5e
-        - dndgame\Library\metadata\63
-        - dndgame\Library\metadata\76
-        - dndgame\Library\metadata\be
-        - dndgame\Library\metadata\e4
         - dndgame\Library\ScriptAssemblies
         - dndgame\Temp
         - dndgame\Temp\UnityVS_obj
@@ -724,60 +711,6 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: dndgame\Assets
-          label: Assets
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Assets\Scripts
-          label: Scripts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Assets\Scripts\IO scripts
-          label: IO scripts
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: dndgame\Library
           label: Library
           level: 1
@@ -816,186 +749,6 @@ MonoBehaviour:
             staged: 0
         - path: dndgame\Library\gfu\cache
           label: cache
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata
-          label: metadata
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\0d
-          label: 0d
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\1f
-          label: 1f
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\29
-          label: 29
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\47
-          label: 47
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\5e
-          label: 5e
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\63
-          label: 63
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\76
-          label: 76
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\be
-          label: be
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: dndgame\Library\metadata\e4
-          label: e4
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1238,8 +991,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide
-        label: storage.ide
+      - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
+        label: storage.ide-shm
         level: 6
         isFolder: 0
         isContainer: 0
@@ -1250,105 +1003,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide
-          fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide
-          projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: dndgame\Assets
-        label: Assets
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Assets\Scripts
-        label: Scripts
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Assets\Scripts\IO scripts
-        label: IO scripts
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Assets\Scripts\IO scripts\FileIO.cs
-        label: FileIO.cs
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Assets\Scripts\IO scripts\FileIO.cs
-          fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\FileIO.cs
-          projectPath: Assets\Scripts\IO scripts\FileIO.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
-        label: Test_FileReader.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
-          fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
-          projectPath: Assets\Scripts\IO scripts\Test_FileReader.cs
+          path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
+          fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
+          projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide-shm
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
-        label: Test_FileReader.cs.meta
-        level: 5
+      - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
+        label: storage.ide-wal
+        level: 6
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1358,47 +1021,11 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
-          fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
-          projectPath: Assets\Scripts\IO scripts\Test_FileReader.cs.meta
+          path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide-wal
           originalPath: 
           status: 1
-          staged: 0
-      - path: dndgame\dndgame.csproj
-        label: dndgame.csproj
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\dndgame.csproj
-          fullPath: C:\dev\GitHub\salm420\dndgame\dndgame.csproj
-          projectPath: dndgame.csproj
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: dndgame\dndgame.sln
-        label: dndgame.sln
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\dndgame.sln
-          fullPath: C:\dev\GitHub\salm420\dndgame\dndgame.sln
-          projectPath: dndgame.sln
-          originalPath: 
-          status: 3
           staged: 0
       - path: dndgame\Library
         label: Library
@@ -1433,24 +1060,6 @@ MonoBehaviour:
           path: dndgame\Library\assetDatabase3
           fullPath: C:\dev\GitHub\salm420\dndgame\Library\assetDatabase3
           projectPath: Library\assetDatabase3
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: dndgame\Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\CurrentLayout.dwlt
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\CurrentLayout.dwlt
-          projectPath: Library\CurrentLayout.dwlt
           originalPath: 
           status: 3
           staged: 0
@@ -1507,24 +1116,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
-          staged: 0
-      - path: dndgame\Library\gfu\cache\branches.yaml
-        label: branches.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\gfu\cache\branches.yaml
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\branches.yaml
-          projectPath: Library\gfu\cache\branches.yaml
-          originalPath: 
-          status: 3
           staged: 0
       - path: dndgame\Library\gfu\cache\gitlocks.yaml
         label: gitlocks.yaml
@@ -1598,384 +1189,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: dndgame\Library\metadata
-        label: metadata
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\0d
-        label: 0d
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-        label: 0d02a71b089e11847b81c2cffe34cfb7.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-          projectPath: Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\1f
-        label: 1f
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-        label: 1ffed2b1ba1086941beebfff935fd852.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-          projectPath: Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\29
-        label: 29
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-        label: 294ecdf319dfce04abbffe7b529ba121.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-          projectPath: Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\47
-        label: 47
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-        label: 47348136c40b4e742bd8fb226e17231f.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-          projectPath: Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-        label: 47f2bc42233294843a55e678f85f5b76.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-          projectPath: Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\5e
-        label: 5e
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-        label: 5ef7b12dc5b25a544997e377a963cb04
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-          projectPath: Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-        label: 5ef7b12dc5b25a544997e377a963cb04.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-          projectPath: Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: dndgame\Library\metadata\63
-        label: 63
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-        label: 632009e7bc4523149861acb3b4d9bc3e.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-          projectPath: Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\76
-        label: 76
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-        label: 764cfda069b085e42b9de26f49d16b54
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-          projectPath: Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: dndgame\Library\metadata\be
-        label: be
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-        label: bea53fd4f665c874280c9aae9a372a3b.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-          projectPath: Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\metadata\e4
-        label: e4
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-        label: e4284e6a086d1d04b98c1b93a2c060a1.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-          projectPath: Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-          originalPath: 
-          status: 5
-          staged: 0
       - path: dndgame\Library\ScriptAssemblies
         label: ScriptAssemblies
         level: 2
@@ -1993,42 +1206,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
-          staged: 0
-      - path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-        label: Assembly-CSharp.dll.mdb
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-          fullPath: C:\dev\GitHub\salm420\dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-          originalPath: 
-          status: 5
           staged: 0
       - path: dndgame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
         label: BuiltinAssemblies.stamp
@@ -2084,6 +1261,42 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll
+        label: Assembly-CSharp-Editor-firstpass.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll
+          projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+        label: Assembly-CSharp-Editor-firstpass.dll.mdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+          projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+          originalPath: 
+          status: 1
+          staged: 0
       - path: dndgame\Temp\UnityLockfile
         label: UnityLockfile
         level: 2
@@ -2102,8 +1315,8 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
-        label: UnityTempFile-585ffeb04bcf77543af5772c794972ca
+      - path: dndgame\Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
+        label: UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2114,14 +1327,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
-          projectPath: Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
+          path: dndgame\Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
+          projectPath: Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
-        label: UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
+      - path: dndgame\Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
+        label: UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2132,14 +1345,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
-          projectPath: Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
+          path: dndgame\Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
+          projectPath: Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
-        label: UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
+      - path: dndgame\Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
+        label: UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2150,14 +1363,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
-          projectPath: Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
+          path: dndgame\Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
+          projectPath: Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
-        label: UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
+      - path: dndgame\Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
+        label: UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2168,14 +1381,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
-          projectPath: Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
+          path: dndgame\Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
+          projectPath: Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
-        label: UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
+      - path: dndgame\Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
+        label: UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2186,14 +1399,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
-          projectPath: Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
+          path: dndgame\Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
+          projectPath: Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
           originalPath: 
           status: 1
           staged: 0
-      - path: dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-        label: UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
+      - path: dndgame\Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
+        label: UnityTempFile-deb782bf72573754bbd0dbd1e0009416
         level: 2
         isFolder: 0
         isContainer: 0
@@ -2204,27 +1417,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-          projectPath: Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
-        label: UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
-          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
-          projectPath: Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
+          path: dndgame\Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
+          fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
+          projectPath: Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
           originalPath: 
           status: 1
           staged: 0
@@ -2344,51 +1539,21 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide
-      fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide
-      projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: dndgame\Assets\Scripts\IO scripts\FileIO.cs
-      fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\FileIO.cs
-      projectPath: Assets\Scripts\IO scripts\FileIO.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
-      fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs
-      projectPath: Assets\Scripts\IO scripts\Test_FileReader.cs
+    - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide-shm
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
-      fullPath: C:\dev\GitHub\salm420\dndgame\Assets\Scripts\IO scripts\Test_FileReader.cs.meta
-      projectPath: Assets\Scripts\IO scripts\Test_FileReader.cs.meta
+    - path: dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\dev\GitHub\salm420\dndgame\.vs\dndgame\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\dndgame\v15\Server\sqlite3\storage.ide-wal
       originalPath: 
       status: 1
-      staged: 0
-    - path: dndgame\dndgame.csproj
-      fullPath: C:\dev\GitHub\salm420\dndgame\dndgame.csproj
-      projectPath: dndgame.csproj
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: dndgame\dndgame.sln
-      fullPath: C:\dev\GitHub\salm420\dndgame\dndgame.sln
-      projectPath: dndgame.sln
-      originalPath: 
-      status: 3
       staged: 0
     - path: dndgame\Library\assetDatabase3
       fullPath: C:\dev\GitHub\salm420\dndgame\Library\assetDatabase3
       projectPath: Library\assetDatabase3
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: dndgame\Library\CurrentLayout.dwlt
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\CurrentLayout.dwlt
-      projectPath: Library\CurrentLayout.dwlt
       originalPath: 
       status: 3
       staged: 0
@@ -2397,12 +1562,6 @@ MonoBehaviour:
       projectPath: Library\EditorInstance.json
       originalPath: 
       status: 1
-      staged: 0
-    - path: dndgame\Library\gfu\cache\branches.yaml
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\branches.yaml
-      projectPath: Library\gfu\cache\branches.yaml
-      originalPath: 
-      status: 3
       staged: 0
     - path: dndgame\Library\gfu\cache\gitlocks.yaml
       fullPath: C:\dev\GitHub\salm420\dndgame\Library\gfu\cache\gitlocks.yaml
@@ -2428,84 +1587,6 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-      projectPath: Library\metadata\0d\0d02a71b089e11847b81c2cffe34cfb7.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-      projectPath: Library\metadata\1f\1ffed2b1ba1086941beebfff935fd852.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-      projectPath: Library\metadata\29\294ecdf319dfce04abbffe7b529ba121.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-      projectPath: Library\metadata\47\47348136c40b4e742bd8fb226e17231f.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-      projectPath: Library\metadata\47\47f2bc42233294843a55e678f85f5b76.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-      projectPath: Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-      projectPath: Library\metadata\5e\5ef7b12dc5b25a544997e377a963cb04.info
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-      projectPath: Library\metadata\63\632009e7bc4523149861acb3b4d9bc3e.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-      projectPath: Library\metadata\76\764cfda069b085e42b9de26f49d16b54
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-      projectPath: Library\metadata\be\bea53fd4f665c874280c9aae9a372a3b.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-      projectPath: Library\metadata\e4\e4284e6a086d1d04b98c1b93a2c060a1.info
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-      fullPath: C:\dev\GitHub\salm420\dndgame\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-      originalPath: 
-      status: 5
-      staged: 0
     - path: dndgame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
       fullPath: C:\dev\GitHub\salm420\dndgame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
       projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
@@ -2518,51 +1599,57 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+      projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.mdb
+      originalPath: 
+      status: 1
+      staged: 0
     - path: dndgame\Temp\UnityLockfile
       fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityLockfile
       projectPath: Temp\UnityLockfile
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
-      projectPath: Temp\UnityTempFile-585ffeb04bcf77543af5772c794972ca
+    - path: dndgame\Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
+      projectPath: Temp\UnityTempFile-30f0c7052e1e3fa448bdc144138772d0
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
-      projectPath: Temp\UnityTempFile-58d5ac56f255a9b4c93085e16cdd4e47
+    - path: dndgame\Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
+      projectPath: Temp\UnityTempFile-66fc8b0972db6b74c84dc2a7420287b5
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
-      projectPath: Temp\UnityTempFile-7eb6fc2957b432049803288d2ebc6aab
+    - path: dndgame\Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
+      projectPath: Temp\UnityTempFile-6f39d1f464dec8d4e923a41452b75b69
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
-      projectPath: Temp\UnityTempFile-90f149ffef2ddb44fa6e269078e61ac7
+    - path: dndgame\Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
+      projectPath: Temp\UnityTempFile-bcff09fa66129d54d96a0ffc87fbbb59
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
-      projectPath: Temp\UnityTempFile-abe9639fe92f2a145afa390767c9bdd9
+    - path: dndgame\Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
+      projectPath: Temp\UnityTempFile-c2fed0849e76c7f4fb8d4d375db97efc
       originalPath: 
       status: 1
       staged: 0
-    - path: dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-      projectPath: Temp\UnityTempFile-adf02c3bd8f9a804ca38b7194e392b24
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
-      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
-      projectPath: Temp\UnityTempFile-cd0b1c47f98806c41be0127ed62d599c
+    - path: dndgame\Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
+      fullPath: C:\dev\GitHub\salm420\dndgame\Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
+      projectPath: Temp\UnityTempFile-deb782bf72573754bbd0dbd1e0009416
       originalPath: 
       status: 1
       staged: 0
@@ -2584,15 +1671,15 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
-    changedFilesText: 41 changed files
+    changedFilesText: 23 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-07-25T18:44:49.547-04:00
+      updatedTimeString: 2018-07-26T16:28:47.729-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-07-25T18:45:39.639-04:00
+      updatedTimeString: 2018-07-26T22:20:16.342-04:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-07-25T18:44:49.699-04:00
+      updatedTimeString: 2018-07-26T22:20:16.317-04:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -48079,14 +47166,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-  currentBranch: Garrett-Branch
+  currentBranch: master
   currentRemoteUrl: https://github.com/NeonProgrammed/salm420.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: Garrett-Branch
+    m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -48094,13 +47181,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-07-25T18:44:49.547-04:00
+    updatedTimeString: 2018-07-26T16:28:47.729-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-07-25T18:44:49.715-04:00
+    updatedTimeString: 2018-07-26T16:28:47.757-04:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-07-25T18:45:39.639-04:00
+    updatedTimeString: 2018-07-26T18:38:40.067-04:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -48118,8 +47205,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialization failed
 --- !u!114 &15
@@ -48229,10 +47316,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\dev\GitHub\salm420\dndgame
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 13}
-    m_SelectedIDs: 86280000
-    m_LastClickedID: 10374
-    m_ExpandedIDs: 000000000828000030280000bc28000046290000ffffff7f
+    scrollPos: {x: 0, y: 49}
+    m_SelectedIDs: 8a280000
+    m_LastClickedID: 10378
+    m_ExpandedIDs: 000000000c280000342800008a280000c02800004a290000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -48260,7 +47347,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000828000030280000bc28000046290000
+    m_ExpandedIDs: 000000000c28000034280000c02800004a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -48288,7 +47375,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000fa050000ce0600002a290000ec28000000000000
+    m_ExpandedInstanceIDs: c6230000fa050000ce0600002a290000ec2800000000000092280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -48380,7 +47467,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 86fbffff00000000
+    m_ExpandedIDs: 7efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -48527,7 +47614,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
