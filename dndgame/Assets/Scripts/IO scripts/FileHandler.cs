@@ -4,6 +4,11 @@ using System.IO;
 using UnityEngine;
 
 /**
+ * NOTES FOR USE_____
+ * When using any paths returned from Application.dataPath
+ * you cannot make the variable as a global variable. It must be initialized in
+ * Start() or update()
+ * 
  * FILE STRUCTURE ______
  * void CreateNewFile(string dir, string fileName, string ext)
  * void DeleteFile(string dir, string fileName, string ext)
@@ -14,7 +19,8 @@ using UnityEngine;
 public class FileHandler : MonoBehaviour {
 
 
-	static void CreateNewfile(string dir, string fileName, string ext){ // Creates a new blank file with the name and extention
+	public static void CreateNewfile(string dir, string fileName, string ext){ // Creates a new blank file with the name and extention
+
         string path = dir + "/" + fileName + "." + ext; // Makes the path include the file name and extention
         if (!File.Exists(path)){ // Checks to see if the file is already there
             File.Create(path); // Creates the file at the specified path
@@ -25,13 +31,20 @@ public class FileHandler : MonoBehaviour {
     }
 
 
-    static void DeleteFile(string dir, string fileName, string ext){ // Deletes a file in the specified path
-        string path = dir + "/" + fileName + "." + ext; // Makes path include the file name and extention
-        File.Delete(path);
+    public static void DeleteFile(string dir, string fileName, string ext){ // Deletes a file in the specified path
+
+        string path = dir + "/" + fileName + "." + ext; ; // Makes path include the file name and extention
+
+        if (File.Exists(path)) {
+            File.Delete(path);
+        } else {
+            Debug.LogError("File Does not exist - " + path);
+        }
     }
 
 
-    static void WriteToFile(string dir, string fileName, string ext, List<string> data){ // Writes to a file
+    public static void WriteToFile(string dir, string fileName, string ext, List<string> data){ // Writes to a file
+
         string path = dir + "/" + fileName + "." + ext; // Makes path include the file name and extention
 
         // This block of code allows for each element of data to write to the file
@@ -39,14 +52,15 @@ public class FileHandler : MonoBehaviour {
         int counter = 0; // Adds a counter for debugging
         foreach (string line in data){ // Iterates through data and gives the value to line
             counter++; // Increases counter every iteration
-            sw.WriteLine((string)line); // Casts the line to a string and writes to the file
+            sw.WriteLine(line); // Casts the line to a string and writes to the file
         }
         sw.Close(); // Closes the file
         print("Save " + counter.ToString() + " lines to " + path); // Prints debug information
     }
 
 
-    static List<string> ReadFromFile(string dir, string fileName, string ext){ // Reads a file that already exists
+    public static List<string> ReadFromFile(string dir, string fileName, string ext){ // Reads a file that already exists
+
         string path = dir + "/" + fileName + "." + ext; // Makes path include the file name and extention
         List<string> fileData = new List<string>(); // allows for a List of what was read to be put in a variable
 

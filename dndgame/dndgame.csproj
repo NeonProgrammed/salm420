@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.1f1</UnityVersion>
@@ -335,8 +336,9 @@
     <Compile Include="Assets\Scripts\GUI Scripts\bar.cs" />
     <Compile Include="Assets\Scripts\GUI Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\GUI Scripts\UIScript.cs" />
-    <Compile Include="Assets\Scripts\IO scripts\FileHandler.cs" />
-    <Compile Include="Assets\Scripts\IO scripts\testing\FileIO.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\FileIOHandler.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\testFile.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\testing\ExFileIO.cs" />
     <Compile Include="Assets\Scripts\IO scripts\testing\Test_FileReader.cs" />
     <Compile Include="Assets\Scripts\IO scripts\testing\TestScript.cs" />
   </ItemGroup>

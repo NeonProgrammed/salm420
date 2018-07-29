@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-26T16:28:47.729-04:00
-  initializedAtString: 2018-07-26T16:28:47.729-04:00
+  lastUpdatedAtString: 2018-07-28T12:52:36.220-04:00
+  initializedAtString: 2018-07-28T12:52:36.220-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/NeonProgrammed/salm420.git
@@ -23,15 +23,15 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Garrett-Branch
+    tracking: origin/Garrett-Branch
   currentConfigBranch:
-    name: master
+    name: Garrett-Branch
     remote:
       name: origin
       url: https://github.com/NeonProgrammed/salm420.git
-    trackingBranch: master
+    trackingBranch: Garrett-Branch
   currentConfigRemote:
     name: origin
     url: https://github.com/NeonProgrammed/salm420.git
-  currentHead: 7c59918
+  currentHead: ae98cf5
