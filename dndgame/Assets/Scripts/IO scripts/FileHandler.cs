@@ -14,6 +14,9 @@ using UnityEngine;
  * void DeleteFile(string dir, string fileName, string ext)
  * void WriteToFile(string dir, string fileName, string ext, List<string> data)
  * List<string> ReadFromFile(string dir, string fileName, string ext)
+ * 
+ * CreateLNL(string dir, string fileName, string charName, string campain = "" SUC sucFile, Image[] maps, NPC npcs, Item items)
+ * LNL files will point to a dir with a campain to it. By default this will have a blank string just in case
  **/
 
 public class FileHandler : MonoBehaviour {
@@ -81,6 +84,17 @@ public class FileHandler : MonoBehaviour {
         print(counter + " lines read from " + path); // Prints debugging information
 
         return fileData; // returns the file's content in a List
+    }
+
+
+
+    // Here are the pre-set functions that will be used in creating LNL files and SUC files
+    public static void CreateLnL(string dir, string fileName){ // When we go about making the classes I will include them in the function
+
+    }
+
+    public static void CreateSUC(string dir, string fileName, string charName, string campain = ""){
+
     }
 
 }
