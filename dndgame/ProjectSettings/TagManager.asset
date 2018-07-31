@@ -44,6 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UI
+    uniqueID: 3166662053
+    locked: 0
   - name: TextLayer
     uniqueID: 1738855819
     locked: 0

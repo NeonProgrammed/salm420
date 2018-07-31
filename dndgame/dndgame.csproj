@@ -324,9 +324,11 @@
     <Compile Include="Assets\Scripts\GUI Scripts\bar.cs" />
     <Compile Include="Assets\Scripts\GUI Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\GUI Scripts\UIScript.cs" />
-    <Compile Include="Assets\Scripts\IO scripts\FileIO.cs" />
-    <Compile Include="Assets\Scripts\IO scripts\Test_FileReader.cs" />
-    <Compile Include="Assets\Scripts\IO scripts\TestScript.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\FileIOHandler.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\testFile.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\testing\ExFileIO.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\testing\Test_FileReader.cs" />
+    <Compile Include="Assets\Scripts\IO scripts\testing\TestScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
