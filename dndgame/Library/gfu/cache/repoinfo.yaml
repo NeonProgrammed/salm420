@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-07-30T22:41:39.486-04:00
-  initializedAtString: 2018-07-30T22:41:39.486-04:00
-=======
-  lastUpdatedAtString: 2018-07-28T22:34:27.554-04:00
-  initializedAtString: 2018-07-28T22:34:27.554-04:00
->>>>>>> master
+  lastUpdatedAtString: 2018-07-30T23:07:23.230-04:00
+  initializedAtString: 2018-07-30T23:07:23.230-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/NeonProgrammed/salm420.git
@@ -28,19 +23,15 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Garrett-Branch
+    tracking: origin/Garrett-Branch
   currentConfigBranch:
-    name: master
+    name: Garrett-Branch
     remote:
       name: origin
       url: https://github.com/NeonProgrammed/salm420.git
-    trackingBranch: master
+    trackingBranch: Garrett-Branch
   currentConfigRemote:
     name: origin
     url: https://github.com/NeonProgrammed/salm420.git
-<<<<<<< HEAD
-  currentHead: acb2e02
-=======
-  currentHead: 7c59918
->>>>>>> master
+  currentHead: 44eaef2

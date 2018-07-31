@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,15 +12,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-07-26T23:25:03.937-04:00
-  initializedAtString: 2018-07-26T01:44:28.873-04:00
+  lastUpdatedAtString: 2018-07-30T23:08:30.659-04:00
+  initializedAtString: 2018-07-30T23:07:40.644-04:00
   localBranches:
+  - name: Garrett-Branch
+    tracking: origin/Garrett-Branch
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/Bryce-Branch
+    tracking: '[None]'
   - name: origin/Garrett-Branch
     tracking: '[None]'
+  - name: origin/Harold-Branch
+    tracking: '[None]'
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -32,8 +40,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Garrett-Branch
     - master
     values:
+    - name: Garrett-Branch
+      remote:
+        name: origin
+        url: https://github.com/NeonProgrammed/salm420.git
+      trackingBranch: Garrett-Branch
     - name: master
       remote:
         name: origin
@@ -44,16 +58,34 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - Bryce-Branch
       - Garrett-Branch
+      - Harold-Branch
       - HEAD
+      - master
     subKeyValues:
     - Values:
+      - name: Bryce-Branch
+        remote:
+          name: origin
+          url: https://github.com/NeonProgrammed/salm420.git
+        trackingBranch: 
       - name: Garrett-Branch
         remote:
           name: origin
           url: https://github.com/NeonProgrammed/salm420.git
         trackingBranch: 
+      - name: Harold-Branch
+        remote:
+          name: origin
+          url: https://github.com/NeonProgrammed/salm420.git
+        trackingBranch: 
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/NeonProgrammed/salm420.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/NeonProgrammed/salm420.git
