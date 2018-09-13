@@ -13,6 +13,8 @@ public class CharacterCreationUI : MonoBehaviour {
     public GameObject backstoryUI;
     public Text backstoryUI_info;
 
+    public Canvas diceTab;
+
     public GameObject infoTab;
 
     // Vairbales for tab UI
@@ -25,6 +27,7 @@ public class CharacterCreationUI : MonoBehaviour {
         setupUI_info.enabled = true;
         attribUI_info.enabled = false;
         backstoryUI_info.enabled = false;
+        diceTab.enabled = false;
 
         // For tab UI
         anim = infoTab.GetComponent<Animator>(); // Gets the animator component in all children components
@@ -56,6 +59,8 @@ public class CharacterCreationUI : MonoBehaviour {
         attribUI_info.enabled = false;
         backstoryUI.SetActive(false);
         backstoryUI_info.enabled = false;
+
+        diceTab.enabled = false;
     }
 
     public void attributesPressed()
@@ -66,6 +71,8 @@ public class CharacterCreationUI : MonoBehaviour {
         attribUI_info.enabled = true;
         backstoryUI.SetActive(false);
         backstoryUI_info.enabled = false;
+
+        diceTab.enabled = true;
     }
 
     public void backstoryPressed()
@@ -76,6 +83,8 @@ public class CharacterCreationUI : MonoBehaviour {
         attribUI_info.enabled = false;
         backstoryUI.SetActive(true);
         backstoryUI_info.enabled = true;
+
+        diceTab.enabled = false;
     }
 
 }
