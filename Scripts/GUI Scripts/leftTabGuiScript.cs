@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class leftTabGuiScript : MonoBehaviour {
+    public List<Attributes> attributes;
 
     public RectTransform parent;
 
@@ -17,6 +18,7 @@ public class leftTabGuiScript : MonoBehaviour {
     public void addAttributes()
     {
         Attributes attrib = new Attributes(attributePrefab);
+        attributes.Add(attrib);
         attrib.createAttribute(parent);
     }
 
