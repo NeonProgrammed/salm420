@@ -21,7 +21,8 @@ public class CounterScript : MonoBehaviour {
 
     public void decreasePressed()
     {
-        counter--;
+        if (counter > 0)
+            counter--;
     }
 
     public void rollPressed()

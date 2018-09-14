@@ -503,10 +503,10 @@ TextureImporter:
       name: GUI_elements_18
       rect:
         serializedVersion: 2
-        x: 1364
+        x: 1365
         y: 506
-        width: 96
-        height: 96
+        width: 94
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

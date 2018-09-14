@@ -13,8 +13,6 @@ public class attributes_gui_script : MonoBehaviour {
     public RectTransform parent;
     public List<string> attributesList;
 
-    int i = 0;
-
     // Use this for initialization
     void Start () {
 
