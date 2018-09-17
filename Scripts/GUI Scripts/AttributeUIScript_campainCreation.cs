@@ -3,23 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class leftTabGuiScript : MonoBehaviour {
-    public List<Attributes> attributes;
+public class AttributeUIScript_campainCreation : MonoBehaviour {
+    public static List<Attributes> attributes;
 
     public RectTransform parent;
 
     public Transform attributePrefab;
 
-    void Start()
-    {
-
-    }
-
     public void addAttributes()
     {
-        Attributes attrib = new Attributes(attributePrefab);
+        Instantiate(attributePrefab, parent);
+        Attributes attrib = attributePrefab.GetComponent<Attributes>();
         attributes.Add(attrib);
-        attrib.createAttribute(parent);
     }
 
 }

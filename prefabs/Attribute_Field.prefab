@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 224580397671870204}
   - component: {fileID: 222873196952221452}
   - component: {fileID: 114239733394300658}
-  - component: {fileID: 114857997195735802}
+  - component: {fileID: 114119269168858800}
   m_Layer: 5
   m_Name: Attribute_Field
   m_TagString: Untagged
@@ -516,6 +516,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
+--- !u!114 &114119269168858800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260624752514246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9484fbc9e92736c428d442a548fe6152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributeName: {fileID: 114184691011459212}
+  diceSelection: {fileID: 114789299898677268}
+  counterText: {fileID: 114613421514430342}
 --- !u!114 &114158077229925604
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -775,7 +789,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114857997195735802}
+      - m_Target: {fileID: 114119269168858800}
         m_MethodName: increaseCount
         m_Mode: 1
         m_Arguments:
@@ -908,7 +922,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114857997195735802}
+      - m_Target: {fileID: 114119269168858800}
         m_MethodName: decreaseCount
         m_Mode: 1
         m_Arguments:
@@ -1207,19 +1221,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114857997195735802
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1260624752514246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7010bc7aaf27a14e864aa38fba7d8e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  counter: 0
-  counterText: {fileID: 114613421514430342}
 --- !u!222 &222083974173170952
 CanvasRenderer:
   m_ObjectHideFlags: 1

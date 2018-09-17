@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Attributes : MonoBehaviour {
 
@@ -12,42 +13,51 @@ public class Attributes : MonoBehaviour {
      * D6 - 5
        D4 - 6 */
 
-    public Transform attribute;
+    // holds data for attribute
+    public Text attributeName;
+    private string attributeString;
 
-    private string attributeTitle;
-    private int dice;
-    private int counter;
+    public Dropdown diceSelection;
+    private int diceType;
 
-    public Attributes(Transform attrib)
+    public Text counterText;
+    private int diceCounter = 0;
+
+    public enum diceType
     {
-        attribute = attrib;
-
-        attributeTitle = "";
-        dice = 0;
-        counter = 0;
+        None,
+        D20,
+        D12,
+        D10,
+        D8,
+        D6,
+        D4
     }
 
-    public Attributes(Transform attrib, string attributeName, int diceType, int diceCounter)
+    void Update()
     {
-        attribute = attrib;
+        attributeString = attributeName.text; // updates the atribute name
 
-        attributeTitle = attributeName;
-        dice = diceType;
-        counter = diceCounter;
+        diceType = diceSelection.value; // updates the dice being used
+
+        counterText.text = diceCounter.ToString(); // updates the counter script
     }
 
-    public void setAttributeName(string attributeName) { attributeTitle = attributeName; }
 
-    public void setDiceType(int diceType) { dice = diceType; }
+    // Controls counter
+    public void increaseCount()
+    {
+        diceCounter++;
+    }
+    public void decreaseCount()
+    {
+        if (diceCounter > 0)
+            diceCounter--;
+    }
 
-    public void setDiceCounter(int diceCounter) { counter = diceCounter; }
+    // Returns all values for attribute
+    public string getAttributeName () { return attributeString; }
+    public int getDiceType() { return diceType; }
+    public int getDiceCounter() { return diceCounter; }
 
-    public string getAttributeName() { return attributeTitle; }
-
-    public int getDiceType() { return dice; }
-
-    public int getDiceCounter() { return counter; }
-
-    public void createAttribute(RectTransform parent) { Instantiate(attribute, parent); }
-	
 }
