@@ -11,17 +11,17 @@ public class attributes_gui_script : MonoBehaviour {
 
     public Transform template;
     public RectTransform parent;
-    public List<Attributes> attributesList;
+    public List<Attribute> attributesList;
 
     // Use this for initialization
     void Start () {
 
         for (int i = 0; i < attributesList.Count; i++)
         {
-            string str = attributesList[i].getAttributeName();
+            //string str = attributesList[i].getAttributeName();
             Instantiate(template, parent);
 
-            template.GetComponentInChildren<Text>().text = str;
+            //template.GetComponentInChildren<Text>().text = str;
 
         }
 	}
